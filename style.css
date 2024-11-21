@@ -1,0 +1,488 @@
+*
+{
+    margin:0;
+    font-family:"Arial";
+    border:border-box;
+}
+
+#navbar
+{
+    height:60px;
+    background-color:#0F1111;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+#nav_logo
+{
+    height:50px;
+    width:225px;
+}
+
+#logo
+{
+    background-image: url("./Pics/Amazon_logo.png");
+    background-size:cover;
+    height:50px;
+    width:225px;
+}
+
+.border
+{
+    border:2px solid transparent;
+}
+
+.border:hover
+{
+    border:2px solid white;
+}
+
+#address
+{
+    margin:5px 2px 5px 0px;
+    padding:0px 9px 0px 9px;
+}
+
+#one_addr_line
+{
+    color:#cccccc;
+    font-size:12px;
+    margin-left:15px;
+}
+
+#two_addr
+{
+    display:flex;
+    align-items:center;
+}
+
+#two_addr_line
+{
+    color:white;
+    font-size:14px;
+    margin-left:2.5px;
+}
+
+#nav_search
+{
+    display:flex;
+    width:800px;
+    height:40px;
+    border-radius:8px;
+    justify-content:space-evenly;
+}
+
+#nav_search:hover
+{
+    border:3px solid orange;
+}
+
+#search_select
+{
+    height:40px;
+    width:45px;
+    border-bottom-left-radius:4px;
+    border-top-left-radius:4px;
+    text-align:center;
+    background-color:#E6E6E6;
+    padding:0px 0px 0px 5px;
+    border:1px;
+
+}
+
+#search_input
+{
+    width:100%;
+    padding:7px 10px 10px 0;
+    font-size:1em;
+    border:none;
+}
+
+#search_icon
+{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.2em;
+    background-color:orange;
+    color:#0F1111;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+
+#nav_signin 
+{
+    color:#ffffff;
+    padding:10px 9px 10px 9px;
+}
+
+#nav_return
+{
+    color:#ffffff;
+    padding:10px 9px 10px 9px;
+}
+
+#nav_cart
+{
+    display:flex;
+    color:#ffffff;
+    align-items:center;
+}
+
+#nav_cart i
+{
+    font-size:35px;
+}
+
+.nav_1stline
+{
+    font-size:12px;
+}
+
+.nav_2ndline
+{
+    font-size:14px;
+    font-weight:700;
+}
+
+
+#panel
+{
+    background-color:#232f3e;
+    height:39px;
+    padding-left:11px;
+    display:flex;
+}
+
+#panel_all
+{
+    padding:8px 9px 8px 9px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#panel_all_txtline
+{
+    font-size:14px;
+    font-weight:700;
+    color:#ffffff;
+}
+
+#panel_deals
+{
+    padding:8px 9px;
+}
+
+#panel_buyagain
+{
+    padding:8px 9px;
+}
+
+#panel_customerservice
+{
+    padding:8px 9px;
+}
+
+#panel_registry
+{
+    padding:8px 9px;
+}
+
+#panel_giftcard
+{
+    padding:8px 9px;
+}
+
+#panel_sell
+{
+    padding:8px 9px;
+}
+
+#panel_electronics
+{
+    padding:8px 9px;
+    position:relative;
+    left:50%;
+}
+
+.panel_txtline
+{
+    color:#ffffff;
+    font-size:14px;
+}
+
+#hero-section
+{    
+    background-image:url("./Pics/hero_image.jpg");
+    background-size:cover;
+    height:50%;
+    width:100%;
+    display:flex;
+    justify-content:center;   
+    align-items:flex-end;
+}
+
+#hero-msg
+{
+    background-color:#ffffff;
+    height:20px;
+    width:1402;
+    font-size:14px;
+    padding:10px 14px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;    
+    bottom:25px;
+}
+
+#hero-msg a
+{
+    color:rgb(0, 200, 255);
+    text-decoration:none;
+}
+
+#hero-msg a:hover
+{
+    color:orange;
+    text-decoration:underline;
+}
+
+.product-row
+{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#D4EBF9;
+}
+
+.product-row-box
+{
+    height:300px;
+    width:300px;
+    background-color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:20px;
+    margin-bottom:25px;
+}
+
+.product-box-items
+{
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+    height:120px;
+}
+
+.product-image
+{
+    height:225px;
+}
+.product-box-image
+{
+    height:120px;
+}
+
+.product-shelf
+{
+    width:94%;
+    height:300px;
+    background-color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding:20px;
+    margin-bottom:25px;
+}
+
+.product-shelf-title
+{
+    display:flex;
+    align-items:center;
+}
+
+.product-shelf-image-row
+{
+    display:flex;
+    justify-content:space-between;
+}
+
+.product-row-links
+{
+    color:rgb(0, 200, 255);
+    text-decoration:none;
+    margin:0px 0px 0px 15px;
+}
+
+.product-row-links:hover
+{
+    color:orange;
+    text-decoration:underline;
+}
+
+.product-row-box-links
+{
+    color:rgb(0, 200, 255);
+    text-decoration:none;
+}
+
+.product-row-box-links:hover
+{
+    color:orange;
+    text-decoration:underline;
+}
+
+#back-to-top
+{
+    background-color:#37475a;
+    height:49px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#back-to-top p
+{
+    color:white;
+    font-size:13px;
+    font-weight:550;
+}
+
+#bottom-options
+{
+    height:260px;
+    background-color:#232f3e;
+    padding:40px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#bottom-options h3
+{
+    color:#ffffff;
+    margin:0px 0 10px 0;
+}
+
+#bottom-options a
+{
+    color:#ffffff;
+    margin:5px 0 5px 0;
+    text-decoration:none;
+}
+
+#bottom-options a:hover
+{
+    color:#ffffff;
+    text-decoration:underline;
+    margin:5px 0 5px 0;
+}
+
+.bottom-options-panels
+{
+    display:flex;
+    flex-direction:column;
+}
+
+#bottom-website-select
+{
+    height:100px;
+    background-color:#232f3e;
+    border-top:0.01px solid white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#bottom-logo
+{
+    height:30%;
+    width:30%;
+}
+
+#bottom-website-select select
+{
+    background-color:#232f3e;
+    color:#ffffff;
+    padding:10px;
+}
+
+#bottom-website-select div
+{
+    width:30%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+#copyright
+{
+    background-color:#131A22;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+}
+
+
+#copyright_statement
+{
+    color:#dddddd;
+}
+
+#terms_and_conditions
+{
+    width:35%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+#terms_and_conditions a
+{
+    color:#dddddd;
+    text-decoration:none;
+}
+
+#terms_and_conditions a:hover
+{
+    color:#dddddd;
+    text-decoration:underline;
+}
+
+#copyright p
+{
+    margin:10px;
+}
+
+.extra_service
+{
+    width:70%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.extra_service a
+{
+    text-decoration:none;
+}
+
+.extra_service a:hover
+{
+    text-decoration:underline #dddddd;
+}
+
+.extra_service_title
+{
+    color:#dddddd;
+}
+
+.extra_service_about
+{
+    color:#999999;
+}
+
+
